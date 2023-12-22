@@ -2,7 +2,7 @@ import axios from "axios"
 
 
 const axiosCall = axios.create({
-    baseURL: 'http://localhost:5000',
+    baseURL: 'https://server-side-sooty.vercel.app',
 });
 const useAxios = () => {
     return axiosCall
